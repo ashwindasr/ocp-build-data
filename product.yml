@@ -1,5 +1,10 @@
 bug_mapping:
   default_issue_project: OCPBUGS
+
+  tags:
+    rhaos-{MAJOR}.{MINOR}-ironic-rhel-9-candidate:
+      issue_component: Bare Metal Hardware Provisioning / ironic
+
   components:
     ansible-asb-modules:
       issue_component: Service Broker
