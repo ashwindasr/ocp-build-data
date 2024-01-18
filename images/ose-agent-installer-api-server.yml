@@ -21,7 +21,6 @@ for_payload: true
 from:
   builder:
   - stream: golang-1.20
-  - member: openshift-enterprise-cli
   member: openshift-enterprise-base
 maintainer:
   component: Installer
