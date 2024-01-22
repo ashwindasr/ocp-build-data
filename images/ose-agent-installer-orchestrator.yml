@@ -3,8 +3,8 @@ content:
     dockerfile: ./Dockerfile.assisted-installer.ocp
     git:
       branch:
-        target: ash-test-rhel9
-      url: git@github.com:ashwindasr/assisted-installer.git
+        target: rhel9
+      url: git@github.com:joepvd/assisted-installer.git
       web: https://github.com/openshift/assisted-installer
     ci_alignment:
       streams_prs:

@@ -3,8 +3,8 @@ content:
     dockerfile: ./Dockerfile.assisted-installer-controller.ocp
     git:
       branch:
-        target: ash-test-rhel9
-      url: git@github.com:ashwindasr/assisted-installer.git
+        target: rhel9
+      url: git@github.com:joepvd/assisted-installer.git
       web: https://github.com/openshift/assisted-installer
     ci_alignment:
       streams_prs:
@@ -16,6 +16,7 @@ distgit:
 enabled_repos:
 - rhel-9-baseos-rpms
 - rhel-9-appstream-rpms
+- rhel-9-server-ose-rpms-embargoed
 for_payload: true
 from:
   builder:
