@@ -1,0 +1,27 @@
+
+# This file is managed by doozer: https://github.com/openshift-eng/doozer
+# operated by the OpenShift Automated Release Tooling team (#forum-ocp-art on CoreOS Slack).
+
+# Any manual changes will be overwritten by doozer on the next build.
+#
+# See https://source.redhat.com/groups/public/container-build-system/container_build_system_wiki/odcs_integration_with_osbs
+# for more information on maintaining this file and the format and examples
+
+---
+platforms:
+  only:
+  - x86_64
+  - ppc64le
+  - s390x
+  - aarch64
+remote_sources:
+- name: cachito-gomod-with-deps
+  remote_source:
+    pkg_managers: []
+    ref: 8f7ac0f8825d4f74662d57d569bf56ef2379d168
+    repo: https://github.com/openshift-eng/ocp-build-data
+tags:
+- assembly.test
+- v0.0
+- v0.0.0
+- v0.0.0.20240412.132014
