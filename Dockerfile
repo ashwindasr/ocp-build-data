@@ -2,7 +2,7 @@
 FROM brew.registry.redhat.io/rh-osbs/rhel-els@sha256:cf1bc434a99f7fc6993ad728cbceb72528f031d0c93ea3d183f55728710c6c76
 
 # Start Konflux-specific steps
-RUN mkdir -p /tmp/yum_temp; mv /etc/yum.repos.d/*.repo /tmp/yum_temp/
+RUN mkdir -p /tmp/yum_temp; mv /etc/yum.repos.d/*.repo /tmp/yum_temp/ || true
 COPY .oit/signed.repo /etc/yum.repos.d/
 # End Konflux-specific steps
 ENV __doozer=update BUILD_RELEASE=202404220949.p0.gb45ea65.assembly.test.el9 BUILD_VERSION=v0.0.0 OS_GIT_MAJOR=0 OS_GIT_MINOR=0 OS_GIT_PATCH=0 OS_GIT_TREE_STATE=clean OS_GIT_VERSION=0.0.0-202404220949.p0.gb45ea65.assembly.test.el9 SOURCE_GIT_TREE_STATE=clean __doozer_group=openshift-4.17 __doozer_key=openshift-base-rhel9 __doozer_version=v0.0.0 
@@ -32,5 +32,5 @@ LABEL \
 
 
 # Start Konflux-specific steps
-RUN cp /tmp/yum_temp/* /etc/yum.repos.d/
+RUN cp /tmp/yum_temp/* /etc/yum.repos.d/ || true
 # End Konflux-specific steps
