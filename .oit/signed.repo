@@ -65,6 +65,7 @@ gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 [rhel-9-server-ose-rpms-embargoed-x86_64]
 baseurl = https://ocp-artifacts.hosts.prod.psi.rdu2.redhat.com/pub/RHOCP/plashets/4.17/test/el9-embargoed/latest/x86_64/os
 enabled = 1
+sslverify = false
 module_hotfixes = 1
 name = rhel-9-server-ose-rpms-embargoed-x86_64
 gpgcheck = 1
@@ -74,6 +75,7 @@ gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 baseurl = https://ocp-artifacts.hosts.prod.psi.rdu2.redhat.com/pub/RHOCP/plashets/4.17/test/el9-embargoed/latest/ppc64le/os
 enabled = 1
 module_hotfixes = 1
+sslverify = false
 name = rhel-9-server-ose-rpms-embargoed-ppc64le
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
@@ -81,6 +83,7 @@ gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 [rhel-9-server-ose-rpms-embargoed-s390x]
 baseurl = https://ocp-artifacts.hosts.prod.psi.rdu2.redhat.com/pub/RHOCP/plashets/4.17/test/el9-embargoed/latest/s390x/os
 enabled = 1
+sslverify = false
 module_hotfixes = 1
 name = rhel-9-server-ose-rpms-embargoed-s390x
 gpgcheck = 1
@@ -89,6 +92,7 @@ gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 [rhel-9-server-ose-rpms-embargoed-aarch64]
 baseurl = https://ocp-artifacts.hosts.prod.psi.rdu2.redhat.com/pub/RHOCP/plashets/4.17/test/el9-embargoed/latest/aarch64/os
 enabled = 1
+sslverify = false
 module_hotfixes = 1
 name = rhel-9-server-ose-rpms-embargoed-aarch64
 gpgcheck = 1
