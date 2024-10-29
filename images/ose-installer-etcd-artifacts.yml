@@ -16,12 +16,12 @@ cachito:
     - path: tools/mod
 content:
   source:
-    dockerfile: Dockerfile.installer.art
+    dockerfile: Dockerfile.installer.art-cachi2
     git:
       branch:
-        target: openshift-{MAJOR}.{MINOR}
-      url: git@github.com:openshift-priv/etcd.git
-      web: https://github.com/openshift/etcd
+        target: cachi2-4.16
+      url: git@github.com:jupierce/etcd.git
+      web: https://github.com/jupierce/etcd
     pkg_managers:
     - gomod
     ci_alignment:
