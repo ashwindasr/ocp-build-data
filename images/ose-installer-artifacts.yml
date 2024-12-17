@@ -33,6 +33,4 @@ konflux:
   # Until https://issues.redhat.com/browse/ART-11563 is resolved
   mode: disabled
   vm_override:
-    x86_64: linux-c2xlarge/amd64
-    s390x: linux-large/s390x
     aarch64: linux-d160/arm64
