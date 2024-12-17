@@ -38,4 +38,6 @@ external_scanners:
       enabled: true
 konflux:
   vm_override:
+    x86_64: linux-c2xlarge/amd64
+    s390x: linux-large/s390x
     aarch64: linux-d160/arm64
