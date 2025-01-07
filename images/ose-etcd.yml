@@ -28,3 +28,7 @@ owners:
 - spahl@redhat.com
 maintainer:
   component: "Etcd"
+konflux:
+  content:
+    source:
+      dockerfile: Dockerfile.rhel
