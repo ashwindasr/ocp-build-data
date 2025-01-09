@@ -36,6 +36,9 @@ arches:
 - s390x
 - aarch64
 
+konflux_arches:
+- x86_64
+
 multi_arch:
   enabled: true
 
