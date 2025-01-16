@@ -37,3 +37,4 @@ konflux:
   mode: disabled
   vm_override:
     aarch64: linux-d160/arm64
+    ppc64le: linux-d200-large/ppc64le
