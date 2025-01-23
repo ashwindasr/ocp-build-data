@@ -38,3 +38,7 @@ name: openshift/ose-monitoring-plugin-rhel9
 payload_name: monitoring-plugin
 owners:
 - team-observability-ui@redhat.com
+konflux:
+  network_mode: hermetic
+  cachito:
+    emulation: true
