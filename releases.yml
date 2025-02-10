@@ -9,7 +9,6 @@ releases:
         advisories:
           extras: 138188
           image: 138189
-          metadata: 138190
           microshift: 138191
           rpm: 138193
           prerelease: -1
