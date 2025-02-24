@@ -50,4 +50,4 @@ owners:
 - sdaniele@redhat.com
 - vpunj@redhat.com
 konflux:
-  mode: disabled
+  tagging_mode: enabled
