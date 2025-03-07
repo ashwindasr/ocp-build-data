@@ -40,7 +40,6 @@ konflux:
   network_mode: internal-only
   arches:
   - x86_64
-  - aarch64
 
 multi_arch:
   enabled: true
