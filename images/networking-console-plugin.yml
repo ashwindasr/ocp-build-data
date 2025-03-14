@@ -40,5 +40,7 @@ owners:
 - mschatzm@redhat.com
 payload_name: networking-console-plugin
 konflux:
+  cachi2:
+    enabled: true
   cachito:
     mode: removal

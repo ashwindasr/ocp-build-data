@@ -63,6 +63,8 @@ external_scanners:
     jira_integration:
       enabled: false
 konflux:
+  cachi2:
+    enabled: true
   content:
     source:
       dockerfile: Dockerfile.installer.art-cachi2

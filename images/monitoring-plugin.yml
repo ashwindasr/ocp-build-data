@@ -39,5 +39,7 @@ payload_name: monitoring-plugin
 owners:
 - team-observability-ui@redhat.com
 konflux:
+  cachi2:
+    enabled: true
   cachito:
     mode: emulation

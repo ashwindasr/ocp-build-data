@@ -33,5 +33,7 @@ owners:
 - dmesser@redhat.com
 - aflom@redhat.com
 konflux:
+  cachi2:
+    enabled: true
   cachito:
     mode: removal
