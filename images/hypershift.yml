@@ -22,6 +22,3 @@ name: openshift/ose-hypershift-rhel9
 payload_name: hypershift
 owners:
 - hypershift-team@redhat.com
-konflux:
-  cachi2:
-    enabled: false
