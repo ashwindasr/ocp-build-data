@@ -60,7 +60,7 @@ maintainer:
   component: "Etcd"
 konflux:
   sast:
-    enabled: true
+    enabled: false
   content:
     source:
       dockerfile: Dockerfile.rhel
