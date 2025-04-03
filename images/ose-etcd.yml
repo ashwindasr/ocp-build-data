@@ -59,6 +59,8 @@ owners:
 maintainer:
   component: "Etcd"
 konflux:
+  sast:
+    enabled: true
   content:
     source:
       dockerfile: Dockerfile.rhel
