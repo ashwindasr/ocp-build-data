@@ -58,10 +58,6 @@ labels:
 name: openshift/installer-etcd-artifacts
 owners:
 - aos-install@redhat.com
-external_scanners:
-  sast_scanning:
-    jira_integration:
-      enabled: false
 konflux:
   content:
     source:
