@@ -12,7 +12,7 @@ content:
     modifications:
     - action: add
       source: "https://raw.githubusercontent.com/mistifyio/go-zfs/f784269be439d704d3dfa1906f45dd848fed2beb/Vagrantfile"
-      path: "vendor/github.com/mistifyio/go-zfs/Vagrantfile"
+      path: "vendor/github.com/mistifyio/go-zfs"
     ci_alignment:
       streams_prs:
         commit_prefix: "UPSTREAM: <carry>: "
