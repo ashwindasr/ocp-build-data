@@ -12,7 +12,7 @@ content:
     modifications:
     - action: download
       from: "https://raw.githubusercontent.com/mistifyio/go-zfs/f784269be439d704d3dfa1906f45dd848fed2beb/Vagrantfile"
-      to: "vendor/github.com/mistifyio/go-zfs/Vagrantfile"
+      to: "vendor/github.com/mistifyio/go-zfs"
     ci_alignment:
       streams_prs:
         commit_prefix: "UPSTREAM: <carry>: "
