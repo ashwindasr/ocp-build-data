@@ -11,8 +11,8 @@ content:
       web: https://github.com/openshift/aws-ebs-csi-driver
     modifications:
     - action: download
-      from: "https://raw.githubusercontent.com/openshift/aws-ebs-csi-driver/refs/heads/master/CHANGELOG.md"
-      to: "vendor/ash"
+      from: "https://raw.githubusercontent.com/mistifyio/go-zfs/refs/heads/master/Vagrantfile"
+      to: "vendor/github.com/mistifyio/go-zfs/Vagrantfile"
     ci_alignment:
       streams_prs:
         commit_prefix: "UPSTREAM: <carry>: "
