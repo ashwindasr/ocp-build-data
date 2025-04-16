@@ -11,8 +11,8 @@ content:
       web: https://github.com/openshift/aws-ebs-csi-driver
     modifications:
     - action: download
-      from: "url to download from"
-      to: "location to download to"
+      from: "https://raw.githubusercontent.com/openshift/aws-ebs-csi-driver/refs/heads/master/CHANGELOG.md"
+      to: "vendor/ash"
     ci_alignment:
       streams_prs:
         commit_prefix: "UPSTREAM: <carry>: "
