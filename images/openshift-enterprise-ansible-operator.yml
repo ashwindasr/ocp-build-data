@@ -3,9 +3,9 @@ content:
     dockerfile: openshift/Dockerfile
     git:
       branch:
-        target: release-{MAJOR}.{MINOR}
-      url: git@github.com:openshift-priv/ansible-operator-plugins.git
-      web: https://github.com/openshift/ansible-operator-plugins
+        target: CVE-2025-27516_release-4.17
+      url: git@github.com:PillaiManish/ansible-operator-plugins.git
+      web: https://github.com/PillaiManish/ansible-operator-plugins
     ci_alignment:
       streams_prs:
         commit_prefix: "UPSTREAM: <carry>: "
@@ -22,6 +22,7 @@ cachito:
       - requirements.txt
       requirements_build_files:
       - requirements-build.txt
+      - requirements-build1.txt
       - requirements-pre-build.txt
 distgit:
   branch: rhaos-{MAJOR}.{MINOR}-rhel-9
