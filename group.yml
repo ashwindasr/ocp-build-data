@@ -78,6 +78,7 @@ assemblies:
   enabled: true
 
 cachito:
+  enabled: true
   version: 2
 
 rhcos:
