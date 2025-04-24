@@ -6,34 +6,6 @@ content:
         target: release-{MAJOR}.{MINOR}
       url: git@github.com:openshift-priv/prometheus-alertmanager.git
       web: https://github.com/openshift/prometheus-alertmanager
-    modifications:
-    - action: add
-      source: "https://raw.githubusercontent.com/alecthomas/kingpin/refs/tags/v2.4.0/.travis.yml"
-      path: "vendor/github.com/alecthomas/kingpin/v2/.travis.yml"
-    - action: add
-      source: "https://raw.githubusercontent.com/hashicorp/go-metrics/refs/tags/v0.3.10/.travis.yml"
-      path: "vendor/github.com/armon/go-metrics/.travis.yml"
-    - action: add
-      source: "https://raw.githubusercontent.com/asaskevich/govalidator/a9d515a09cc289c60d55064edec5ef189859f172/.travis.yml"
-      path: "vendor/github.com/asaskevich/govalidator/.travis.yml"
-    - action: add
-      source: "https://raw.githubusercontent.com/asaskevich/govalidator/a9d515a09cc289c60d55064edec5ef189859f172/wercker.yml"
-      path: "vendor/github.com/asaskevich/govalidator/wercker.yml"
-    - action: add
-      source: "https://raw.githubusercontent.com/docker/go-units/refs/tags/v0.5.0/circle.yml"
-      path: "vendor/github.com/docker/go-units/circle.yml"
-    - action: add
-      source: "https://raw.githubusercontent.com/emersion/go-sasl/7bfe0ed36a210245143572d8f52f41485cbf57e1/.build.yml"
-      path: "vendor/github.com/emersion/go-sasl/.build.yml"
-    - action: add
-      source: "https://raw.githubusercontent.com/emersion/go-smtp/refs/tags/v0.21.3/.build.yml"
-      path: "vendor/github.com/emersion/go-smtp/.build.yml"
-    - action: add
-      source: ""
-      path: ""
-    - action: add
-      source: ""
-      path: ""
     ci_alignment:
       streams_prs:
         auto_label:
