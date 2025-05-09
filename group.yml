@@ -47,7 +47,7 @@ konflux:
     gomod_version_patch: true
   sast:
     enabled: true
-  network_mode: hermetic
+  network_mode: internal-only
 
 multi_arch:
   enabled: true
