@@ -4,8 +4,7 @@ releases:
       type: preview
       basis:
         brew_event: <equivalent brew event>
-        reference_releases:
-          x86_64: 4.20.0-0.nightly-2025-05-26-181128
+        reference_releases: {}
       group:
         advisories:
           prerelease: -1
