@@ -3,20 +3,18 @@ releases:
     assembly:
       type: preview
       basis:
-        time: "2025-05-26T07:41:37+00:00"
+        brew_event: <equivalent brew event>
         reference_releases:
           x86_64: 4.20.0-0.nightly-2025-05-26-181128
       group:
         advisories:
+          extras: 149399
+          image: 149400
+          metadata: 149401
+          prerelease: 149402
           rpm: 149403
         operator_index_mode: pre-release
         release_jira: ART-12824
-        shipment:
-          advisories:
-            - kind: image
-            - kind: extras
-            - kind: metadata
-            - kind: prerelease
         upgrades: 4.19.0-rc.4, 4.20.0-ec.1
       permits:
       # for ECs and RCs this should not block us if some rpms version not match desired
