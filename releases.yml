@@ -50,6 +50,21 @@ releases:
             metadata:
               is:
                 nvr: ose-local-storage-mustgather-container-v4.19.0-202508130123.p2.g43e5760.assembly.stream.el9
+          - distgit_key: ose-metallb-operator
+            why: Pin consistent operator build
+            metadata:
+              is:
+                nvr: ose-metallb-operator-container-v4.19.0-202508112158.p2.gfa39a29.assembly.stream.el9
+          - distgit_key: vertical-pod-autoscaler-operator
+            why: Pin consistent operator build
+            metadata:
+              is:
+                nvr: ose-vertical-pod-autoscaler-operator-container-v4.19.0-202508072354.p2.g1d76c12.assembly.stream.el9
+          - distgit_key: sriov-network-operator
+            why: Pin consistent operator build
+            metadata:
+              is:
+                nvr: sriov-network-operator-container-v4.19.0-202508070607.p2.gdc77dbc.assembly.stream.el9
   4.19.8:
     assembly:
       type: standard
