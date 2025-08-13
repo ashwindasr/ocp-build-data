@@ -41,15 +41,15 @@ releases:
         rpms: []
         images:
           - distgit_key: local-storage-operator
-            why: Pin good operator build
+            why: Pin consistent operator build
             metadata:
               is:
-                nvr: local-storage-operator-container-v4.20.0-202508121546.p2.g8a82ce3.assembly.stream.el9
-          - distgit_key: sriov-network-operator
-            why: Pin good operator build
+                nvr: local-storage-operator-container-v4.19.0-202508130123.p2.g43e5760.assembly.stream.el9
+          - distgit_key: ose-local-storage-mustgather
+            why: Pin consistent operator build
             metadata:
               is:
-                nvr: sriov-network-operator-container-v4.19.0-202508120121.p2.gdc77dbc.assembly.stream.el9
+                nvr: ose-local-storage-mustgather-container-v4.19.0-202508130123.p2.g43e5760.assembly.stream.el9
   4.19.8:
     assembly:
       type: standard
