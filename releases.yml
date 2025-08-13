@@ -39,7 +39,12 @@ releases:
             ppc64le: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:e7c80570871be323c54a2db953cf0e3587eebeee738658d2c5ba574bd65f3c5c
       members:
         rpms: []
-        images: []
+        images:
+          - distgit_key: local-storage-operator
+            why: Pin good operator build
+            metadata:
+              is:
+                nvr: local-storage-operator-container-v4.20.0-202508121546.p2.g8a82ce3.assembly.stream.el9
   4.19.8:
     assembly:
       type: standard
