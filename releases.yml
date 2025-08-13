@@ -45,6 +45,11 @@ releases:
             metadata:
               is:
                 nvr: local-storage-operator-container-v4.20.0-202508121546.p2.g8a82ce3.assembly.stream.el9
+          - distgit_key: sriov-network-operator
+            why: Pin good operator build
+            metadata:
+              is:
+                nvr: sriov-network-operator-container-v4.19.0-202508120121.p2.gdc77dbc.assembly.stream.el9
   4.19.8:
     assembly:
       type: standard
