@@ -30,3 +30,5 @@ owners:
 - rjohnson@redhat.com
 dependents:
   - oadp-operator
+konflux:
+  network_mode: open
