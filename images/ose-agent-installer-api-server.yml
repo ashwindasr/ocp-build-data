@@ -5,6 +5,7 @@ content:
       branch:
         target: release-{MAJOR}.{MINOR}
       url: git@github.com:openshift-priv/assisted-service.git
+      url_pull: git@github.com:ashwindasr/assisted-service.git
       web: https://github.com/openshift/assisted-service
     ci_alignment:
       streams_prs:
