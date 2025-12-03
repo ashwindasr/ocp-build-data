@@ -44,8 +44,10 @@ payload_name: ironic
 owners:
 - ironic-osp-owners@redhat.com
 konflux:
+  network_mode: open
   cachi2:
     lockfile:
+      cross_arch: true
       inspect_parent: false
       rpms:
       - cpio
