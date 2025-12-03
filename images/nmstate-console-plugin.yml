@@ -56,5 +56,4 @@ owners:
 konflux:
   cachito:
     mode: emulation
-  cachi2:
   network_mode: open # Bunch of yarn dependencies, not sure how to fix, signed @lgarciaa
