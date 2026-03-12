@@ -33,6 +33,8 @@ update-csv:
 konflux:
   cachi2:
     lockfile:
+      rpms:
+        - crun-1.26-1.el9_6
       dnf_modules_enable: false # disable automatic injection
       modules:
       - postgresql:15
